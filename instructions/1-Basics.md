@@ -40,6 +40,18 @@ cd <react_app_name>
 npm start
 ```
 
+## Prerequisites
+
+1. Remove App.css file and remove import from App.js
+2. Remove App.test.js
+3. Create common directory in src and move there:
+    - App.js file
+    - registerServiceWorker.js 
+4. Rename App.js to main.js
+5. Remove README.md file
+6. Remove logo.svg
+7. Refactor App component to render only 'Hello React App!'
+
 ## Instructions
 
 1. Create Application class with following properties (application/model.js):
@@ -87,21 +99,25 @@ npm start
         - Header
         - All children that are passed to the component
     - Refactor DashboardPage component which should use LayoutWithHeader
-10. Install Material-UI npm package:
+10. Refactor App.js:
+    - Functional Component
+    - Displays only DashboardPage component
+        
+11. Install Material-UI npm package:
 
     ```bash
     npm install --save @material-ui/core
     npm install --save @material-ui/icons
     ```
 
-11. Add links to fonts and icons in the public/index.html:
+12. Add links to fonts and icons in the public/index.html:
 
     ```html
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
     ```
 
-12. Refactor Header component:
+13. Refactor Header component:
     - Remove everything from the render()
     - Add **AppBar** component with static position as the property
     - Pass following AppBar children:
