@@ -135,5 +135,3 @@ npm start
 2. Check how Record works: https://facebook.github.io/immutable-js/docs/#/Record/Record
 3. Change all models to Records
 4. Change all array properties to Lists: https://facebook.github.io/immutable-js/docs/#/List
-
-
