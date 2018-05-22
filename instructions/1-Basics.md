@@ -6,9 +6,8 @@ Install NodeJS on your machine: https://nodejs.org/en/
 
 ## Application description
 
-The main purpose the application should serve is to provide the developer's dashboard. The dashboard should consists display
-basic services connected with the application that the developer is responsible for. If we consider sample application like mft
-we can think of multiple services connected with them that facilitates both development and delivery processes including
+The main purpose the application should serve is to provide the developer's dashboard. The dashboard should display
+basic services connected with the application that the developer is responsible for. If we consider sample application like MFT we can think of multiple services connected with it that facilitates both development and delivery processes including
 Stash Repo, Jenkins, Kibana, Grafana, AWS containers, Wiki spaces etc. Dashboard will present those services divided per 
 application.
 
